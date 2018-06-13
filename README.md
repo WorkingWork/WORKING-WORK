@@ -1,5 +1,5 @@
 What is MERACHAIN COIN (MRH)?
-Just like Bitcoin, Merachain Coin is a decentralized peer to peer digital coin that is not controlled by any central institutions or governments. It is an open-source platform designed to provide multiple investment opportunities. Libra coin is designed to be a digital currency that can be used to store value and to exchange with anyone in the world with extremely low fees and fast lightning speed transactions.
+Just like Bitcoin, Merachain Coin is a decentralized peer to peer digital coin that is not controlled by any central institutions or governments. It is an open-source platform designed to provide multiple investment opportunities. Merachain coin is designed to be a digital currency that can be used to store value and to exchange with anyone in the world with extremely low fees and fast lightning speed transactions.
 
 Multiple Streams of Income
 Invest
