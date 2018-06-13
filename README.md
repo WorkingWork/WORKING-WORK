@@ -3,7 +3,7 @@ Merachain Coin is a secure and energy efficient PoW/PoS coin. Merachain Coin use
 
 #Merachain Coin Specification
 
-Maximum 28 million Merachain coin will ever exist to the community.
+Maximum 1000001 Merachain coin will ever exist to the community.
 
 Merachain coin adopt a variable PoS rate that will be given periodically payout as per following list,
 - 1st 6 months -> 60% (5% per month)
