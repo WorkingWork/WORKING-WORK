@@ -2,7 +2,7 @@
 
 #Merachain Coin Specification
 
-Maximum 10000001 merachain coin will ever exist to the community.
+Maximum 1 000 001 merachain coin will ever exist to the community.
 
 merachain coin adopt a variable PoS rate that will be given periodically payout as per following list,
 -  merachain services and to store and invest the wealth in a non-government controlled currency. The Merachain coins will also be used  as payment system on number of merachain partner websites.
