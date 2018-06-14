@@ -1,7 +1,7 @@
 src/*.exe
-src/bitconnect
-src/bitconnectd
-src/test_bitconnect
+src/Merachain
+src/Merachaind
+src/test_Merachain
 src/build.h
 .*.swp
 *.*~*
@@ -10,11 +10,11 @@ src/build.h
 *.orig
 *.o
 *.patch
-.bitconnect
+.Merachain
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-bitconnect-qt
+Merachain-qt
 #resources cpp
 qrc_*.cpp
 #qt creator
