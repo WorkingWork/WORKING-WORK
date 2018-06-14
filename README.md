@@ -73,7 +73,7 @@ $10,010 - $100,000	VOLATILITY INTEREST + 0.35% DAILY (UP TO 16% PER MONTH)	110 D
 #Download Wallet
 <b>HOW TO SET UP Merachain COIN WALLET ON WINDOWS OPERATING SYSTEM?</b>
 
-A “BitConnect wallet” is basically the Merachain Coin Account, which allows you to receive Merachain Coin, store them, and then send them to others.
+A “Merachain wallet” is basically the Merachain Coin Account, which allows you to receive Merachain Coin, store them, and then send them to others.
 
 <b>Click here : http://www.Merachain.org/wallet/Merachain-wallet.zip</b>
 - Unzip the wallets files.
@@ -94,7 +94,7 @@ A “BitConnect wallet” is basically the Merachain Coin Account, which allows 
 
 - Unzip the wallets files.
 - You will get Merachain-qt.dmg file, Install the wallet software by double click on Merachain-qt.dmg file.
-- You can now send and receive BitConnect Coin directly from Merachain Desktop Wallet and also use this wallet to stake Merachain   Coin.
+- You can now send and receive Merachain Coin directly from Merachain Desktop Wallet and also use this wallet to stake Merachain   Coin.
 
 
 
