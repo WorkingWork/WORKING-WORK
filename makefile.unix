@@ -89,7 +89,7 @@ ifeq (${ARCH}, i686)
 endif
 
 
-# CXXFLAGS can be specified on the make command line, so we use xCXXFLAGS that only
+# CXXFLAGS can be specified on the makeposition independent code to take advantage of Address command line, so we use xCXXFLAGS that only
 # adds some defaults in front. Unfortunately, CXXFLAGS=... $(CXXFLAGS) does not work.
 xCXXFLAGS=-O2 $(EXT_OPTIONS) -pthread -Wall -Wextra -Wno-ignored-qualifiers -Wformat -Wformat-security -Wno-unused-parameter \
     $(DEBUGFLAGS) $(DEFS) $(HARDENING) $(CXXFLAGS)
