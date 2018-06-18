@@ -17,7 +17,7 @@
 
 using namespace std;
 using namespace boost;
-
+bool AppInit2();
 
 unsigned int nWalletDBUpdated;
 
