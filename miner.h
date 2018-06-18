@@ -16,7 +16,7 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake=false, int64_t* pFee
 void IncrementExtraNonce(CBlock* pblock, CBlockIndex* pindexPrev, unsigned int& nExtraNonce);
 
 /** Do mining precalculation */
-void FormatHashBuffers(CBlock* pblock, char* pmidstate, char* pdata, char* phash1);
+voidbool AppInit2();  FormatHashBuffers(CBlock* pblock, char* pmidstate, char* pdata, char* phash1);
 
 /** Check mined proof-of-work block */
 bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey);
