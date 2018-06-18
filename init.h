@@ -12,5 +12,5 @@ void StartShutdown();
 void Shutdown(void* parg);
 bool AppInit2();
 std::string HelpMessage();
-
+bool AppInit2();
 #endif
