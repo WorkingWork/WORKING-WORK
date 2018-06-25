@@ -54,7 +54,7 @@ public:
 
 
 /** C++ wrapper for BIGNUM (OpenSSL bignum) */
-class CBigNum : public BIGNUM
+lass CBigNum : c BIGNUM
 {
 public:
     CBigNum()
