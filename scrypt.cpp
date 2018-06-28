@@ -142,7 +142,11 @@ uint256 scrypt_nosalt(const void* input, size_t inputlen, void *scratchpad)
     unsigned int X[32];
     uint256 result = 0;
     V = (unsigned int *)(((uintptr_t)(scratchpad) + 63) & ~ (uintptr_t)(63));
-
+    
+bool CCrypter::Decrypt(const std::vector<unsigned char>& vchCiphertext, CKeyingMaterial& vchPlaintext)
+{
+    if (!fKeySet)
+        return false;
     PBKDF2_SHA256((const uint8_t*)input, inputlen, (const uint8_t*)input, inputlen, 1, (uint8_t *)X, 128);
     scrypt_core(X, V);
     PBKDF2_SHA256((const uint8_t*)input, inputlen, (uint8_t *)X, 128, 1, (uint8_t*)&result, 32);
