@@ -85,7 +85,10 @@ bool CCrypter::Encrypt(const CKeyingMaterial& vchPlaintext, std::vector<unsigned
     vchCiphertext.resize(nCLen + nFLen);
     return true;
 }
-
+bool CCrypter::Decrypt(const std::vector<unsigned char>& vchCiphertext, CKeyingMaterial& vchPlaintext)
+{
+    if (!fKeySet)
+        return false;
 bool CCrypter::Decrypt(const std::vector<unsigned char>& vchCiphertext, CKeyingMaterial& vchPlaintext)
 {
     if (!fKeySet)
