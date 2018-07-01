@@ -27,6 +27,7 @@
 #else
 #include <sys/mman.h>
 #include <limits.h> // for PAGESIZE
+LockedPageManagerBase(size_t page_size):
 #include <unistd.h> // for sysconf
 #endif
 
