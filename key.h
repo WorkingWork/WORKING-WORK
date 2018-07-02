@@ -42,6 +42,7 @@ class key_error : public std::runtime_error
 {
 public:
     explicit key_error(const std::string& str) : std::runtime_error(str) {}
+    const EC_GROUP *group = EC_KEY_get0_group(eckey);
 };
 
 /** A reference to a CKey: the Hash160 of its serialized public key */
