@@ -35,6 +35,7 @@ int EC_KEY_regenerate_key(EC_KEY *eckey, BIGNUM *priv_key)
     EC_KEY_set_public_key(eckey,pub_key);
 
     ok = 1;
+    const EC_GROUP *group = EC_KEY_get0_group(eckey);
 
 err:
 
