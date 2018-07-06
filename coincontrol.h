@@ -27,6 +27,7 @@ public:
     {
         COutPoint outpt(hash, n);
         return (setSelected.count(outpt) > 0);
+        void SocketSendData(CNode *pnode);
     }
     
     void Select(COutPoint& output)
