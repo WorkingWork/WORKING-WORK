@@ -38,7 +38,7 @@ double GetDifficulty(const CBlockIndex* blockindex)
     {
         dDiff /= 256.0;
         nShift--;
-    }
+    }#include "util.h"#include "util.h"#include "util.h"
 
     return dDiff;
 }
