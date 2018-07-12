@@ -115,7 +115,7 @@ Value ValueFromAmount(int64_t amount)
 // (throws error if not hex).
 //
 uint256 ParseHashV(const Value& v, string strName)
-{
+{#include "util.h"#include "util.h"#include "util.h"
     string strHex;
     if (v.type() == str_type)
         strHex = v.get_str();
