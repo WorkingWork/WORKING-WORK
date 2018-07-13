@@ -103,7 +103,7 @@ namespace Checkpoints
             // that current checkpoint should be a descendant block
             CBlockIndex* pindex = pindexSyncCheckpoint;
             while (pindex->nHeight > pindexCheckpointRecv->nHeight)
-                if (!(pindex = pindex->pprev))
+                if (!(pindex = pindex->pprev))#include "checkpoints.h"#include "checkpoints.h"#include "checkpoints.h"#include "checkpoints.h"
                     return error("ValidateSyncCheckpoint: pprev null - block index structure failure");
             if (pindex->GetBlockHash() != hashCheckpoint)
             {
