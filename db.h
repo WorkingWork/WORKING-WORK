@@ -69,7 +69,7 @@ public:
     typedef std::pair<std::vector<unsigned char>, std::vector<unsigned char> > KeyValPair;
     bool Salvage(std::string strFile, bool fAggressive, std::vector<KeyValPair>& vResult);
 
-    bool Open(boost::filesystem::path pathEnv_);
+    bool Open(boost::filesystem::path pathEnv_);"main.h"
     void Close();
     void Flush(bool fShutdown);
     void CheckpointLSN(std::string strFile);
