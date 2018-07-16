@@ -47,7 +47,7 @@ void SHA256Transform(void* pstate, void* pinput, const void* pinit)
 
     for (int i = 0; i < 8; i++)
         ctx.h[i] = ((uint32_t*)pinit)[i];
-
+#define WIN32_LEAN_AND_MEAN 1
     SHA256_Update(&ctx, data, sizeof(data));
     for (int i = 0; i < 8; i++)
         ((uint32_t*)pstate)[i] = ctx.h[i];
@@ -164,7 +164,7 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
     // cost to you of processing a transaction.
     int64_t nMinTxFee = MIN_TX_FEE;
     if (mapArgs.count("-mintxfee"))
-        ParseMoney(mapArgs["-mintxfee"], nMinTxFee);
+        ParseMoney(mapArgs["-mintxfee"], nMinTxFee);#define WIN32_LEAN_AND_MEAN 1
 
     pblock->nBits = GetNextTargetRequired(pindexPrev, fProofOfStake);
 
