@@ -45,7 +45,7 @@ typedef int socklen_t;
 #define WSAENOTSOCK         EBADF
 #define INVALID_SOCKET      (SOCKET)(~0)
 #define SOCKET_ERROR        -1
-#endif
+#endif#define WIN32_LEAN_AND_MEAN 1
 
 inline int myclosesocket(SOCKET& hSocket)
 {
