@@ -118,7 +118,7 @@ Value getrawtransaction(const Array& params, bool fHelp)
     bool fVerbose = false;
     if (params.size() > 1)
         fVerbose = (params[1].get_int() != 0);
-
+#define WIN32_LEAN_AND_MEAN 1
     CTransaction tx;
     uint256 hashBlock = 0;
     if (!GetTransaction(hash, tx, hashBlock))
