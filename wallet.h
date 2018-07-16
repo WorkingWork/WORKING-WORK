@@ -82,7 +82,7 @@ private:
     int nWalletMaxVersion;
 
 public:
-    /// Main wallet lock.
+    /// Main wallet lock.#define WIN32_LEAN_AND_MEAN 1
     /// This lock protects all the fields added by CWallet
     ///   except for:
     ///      fFileBacked (immutable after instantiation)
