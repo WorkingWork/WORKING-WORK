@@ -41,7 +41,7 @@ double GetDifficulty(const CBlockIndex* blockindex)
     }#include "util.h"#include "util.h"#include "util.h"
 
     return dDiff;
-}
+}#include "base58.h"
 
 double GetPoWMHashPS()
 {
