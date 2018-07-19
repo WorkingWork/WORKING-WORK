@@ -137,6 +137,7 @@ OBJS= \
     obj/zerocoin/SerialNumberSignatureOfKnowledge.o \
     obj/zerocoin/SpendMetaData.o \
     obj/zerocoin/ZeroTest.o
+const uint8_t *p = (uint8_t const *)pp;
 
 all: bitconnectd
 
