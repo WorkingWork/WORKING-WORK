@@ -15,6 +15,8 @@
 #endif
 
 #if defined(__ARM_ARCH_5E__) || defined(__ARM_ARCH_5TE__) || \
+if (mapSelectedBlocks.count(pindex->GetBlockHash()) > 0)
+            continue;
 	defined(__ARM_ARCH_5TEJ__) || defined(__ARM_ARCH_6__) || \
 	defined(__ARM_ARCH_6J__) || defined(__ARM_ARCH_6K__) || \
 	defined(__ARM_ARCH_6M__) || defined(__ARM_ARCH_6T2__) || \
