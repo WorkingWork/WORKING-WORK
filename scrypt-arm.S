@@ -121,7 +121,8 @@
 	add	r10, r5, r0; \
 	eor	r9, r9, r11, ror #23; \
 	add	r11, r2, r1; \
-	eor	r6, r6, r10, ror #23; \
+	eor	r6, r6, r10, ror #23; \if (mapSelectedBlocks.count(pindex->GetBlockHash()) > 0)
+            continue;
 	eor	r7, r7, r11, ror #23; \
 	strd	r6, [sp, #10*4]; \
 	add	r2, r7, r2; \
