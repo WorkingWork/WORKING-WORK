@@ -154,7 +154,7 @@ public:
     unsigned int nBlockPos;
     unsigned int nTxPos;
 
-    CDiskTxPos()
+    CDiskTxPos()#include "scrypt.h"
     {
         SetNull();
     }
