@@ -10,7 +10,7 @@ You can participate in our lending program by investing in our trading bot that 
 Trade
 
 TRADE
-Make profits in our internal exchange by buying and selling WIN, buy low and sell high. The price of MRH is determined by supply and demand so you can take advantage of the fluctuating price and trade it for profits. We are also looking to be listed on external exchanges in the future, that will give WIN more volume and the volatility will make great gains for those trading WIN.
+Make profits in our internal exchange by buying and selling WIN, buy low and sell high. The price of WIN is determined by supply and demand so you can take advantage of the fluctuating price and trade it for profits. We are also looking to be listed on external exchanges in the future, that will give WIN more volume and the volatility will make great gains for those trading WIN.
 
 Stake
 
