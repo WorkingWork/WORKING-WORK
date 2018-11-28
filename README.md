@@ -1,5 +1,5 @@
 What is WINCLOUD COIN (WIN)?
-Just like Bitcoin, Merachain Coin is a decentralized peer to peer digital coin that is not controlled by any central institutions or governments. It is an open-source platform designed to provide multiple investment opportunities. Merachain coin is designed to be a digital currency that can be used to store value and to exchange with anyone in the world with extremely low fees and fast lightning speed transactions.
+Just like Bitcoin, Wincloud Coin is a decentralized peer to peer digital coin that is not controlled by any central institutions or governments. It is an open-source platform designed to provide multiple investment opportunities. Wincloud coin is designed to be a digital currency that can be used to store value and to exchange with anyone in the world with extremely low fees and fast lightning speed transactions.
 
 Multiple Streams of Income
 Invest
@@ -77,7 +77,7 @@ A “Merachain wallet” is basically the WINCLOUD Coin Account, which allows yo
 
 <b>Click here : https://wincloud-invest.com/</b>
 - Unzip the wallets files.
-- You will get Merachain.exe file, Install the wallet software by double click on WINCLOUD.exe file.
+- You will get Wincloud.exe file, Install the wallet software by double click on WINCLOUD.exe file.
 - You can now send and receive WINCLOUD Coin directly from Merachain Desktop Wallet and also use this wallet to stake Merachain Coin.
 
 <b> HOW TO SET UP WINCLOUD COIN WALLET ON LINUX OPERATING SYSTEM?</b> 
@@ -85,7 +85,7 @@ A “Merachain wallet” is basically the WINCLOUD Coin Account, which allows yo
 <b>Click here : https://wincloud-invest.com/
 - Open linux terminal and go to destination path of downloaded directory.
 - Unzip the wallets files using command unzip wallet_file.zip -d destination_folder.
-- execute the wallet file using command ./Merachain-linux-qt.
+- execute the wallet file using command ./Wincloud-linux-qt.
 
 <b>HOW TO SET UP WINCLOUD COIN WALLET ON MAC OS X OPERATING SYSTEM?</b>
 
