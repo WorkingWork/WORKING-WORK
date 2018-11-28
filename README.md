@@ -22,7 +22,7 @@ Peer to peer
 PEER TO PEER
 Merachain coin is a peer to peer mode of exchanging value, there are no intermediators or central banks involved, it is purely controlled by its users across the world.
 
-Limited Supply
+
 LIMITED SUPPLY
 There will only be a maximum supply of 1000001 coins. This will ensure that the price of Wincloud Coin will always be rising as there will be a limited supply, the closer we reach the maximum supply in circulation it will increase demand and scarcity of the coin which in turn will cause the price to rise.
 
